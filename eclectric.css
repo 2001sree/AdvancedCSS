@@ -1,0 +1,40 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#chinnu{
+    width: 100%;
+    height: 100%;
+    background-color: darkgray;
+    display: flex;
+    justify-content: space-between;
+    
+.box{
+    height: 200px;
+    width: 200px;
+    align-items: center;
+    border-right: 5px solid magenta;
+}
+.box1{
+    height: 200px;
+    width: 200px;
+    align-items: center;
+    border: 3px solid greenyellow;
+}
+.box2{
+    height: 200px;
+    width: 200px;
+    align-items: center;
+    border: 4px solid purple;
+}
+.box3{
+    height: 200px;
+    width: 200px;
+    align-items: center;
+}
+}

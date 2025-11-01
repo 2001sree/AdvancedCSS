@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+     integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+<body>
+
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">About</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Dropdown
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Web Development</a></li>
+            <li><a class="dropdown-item" href="#">Manual testing</a></li>
+            <li><a class="dropdown-item" href="#">Fullstack</a></li>
+          </ul>
+        </li>
+      </ul>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+
+    <div class="alert alert-primary" role="alert">
+  A simple primary alert—check it out!
+</div>
+<div id="liveAlertPlaceholder"></div>
+<button type="button" class="btn btn-primary" id="liveAlertBtn">Show live alert</button><br>
+
+<div class="alert alert-success" role="alert">
+  A simple success alert with <a href="https://www.flipkart.com/" class="alert-link">an example link</a>. Give it a click if you like.
+</div><br>
+
+<span class="badge text-bg-danger">Danger</span>
+<span class="badge text-bg-warning">Warning</span>
+<span class="badge text-bg-info">Info</span><br>
+
+<a class="btn btn-primary" href="#" role="button">Link</a>
+<button class="btn btn-primary" type="submit">Button</button>
+<input class="btn btn-primary" type="button" value="Input">
+<input class="btn btn-primary" type="submit" value="Submit">
+<input class="btn btn-primary" type="reset" value="Reset">
+    
+   <div class="card" style="width: 18rem;">
+  <img src="data:image/jpeg;base64,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" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">HP Laptop</h5>
+    <p class="card-text">HP laptops are good to use and it's so smooth..it have more advantages and benefits..</p>
+    <a href="https://www.amazon.in/s?k=hp+lapto&crid=3AFK07BBHWAEF&sprefix=hp+lapto%2Caps%2C237&ref=nb_sb_noss_2" class="btn btn-primary">Hp Laptop address</a>
+  </div>
+</div>  
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</body>
+</html>
