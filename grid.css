@@ -1,0 +1,71 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+.image{
+    width: 100%;
+    background-color:aqua;
+    display: grid;
+    grid-template-areas: 
+    "sree sree sree1 sree2"
+    "sree sree sree3 sree4"
+    "sree5 sree6 sree9 sree9"
+    "sree7 sree8 sree9 sree9";
+    gap: 5px;
+}
+@media(min-width:1020px){
+    image{
+        display: grid;
+        grid-template-areas: 
+        "sree"
+        "sree1"
+        "sree2"
+        "sree3"
+        "sree4"
+        "sree5"
+        "sree6"
+        "sree7"
+        "sree8"
+        "sree9";
+  }
+}
+img{
+    width: 100%;
+    aspect-ratio: 16/9;
+    object-fit: cover;
+}
+.sree{
+    grid-area: sree;
+}
+.sree1{
+    grid-area: sree1;
+}
+.sree2{
+    grid-area: sree2;
+}
+.sree3{
+    grid-area: sree3;
+}
+.sree4{
+    grid-area: sree4;
+}
+.sree5{
+    grid-area: sree5;
+}
+.sree6{
+    grid-area: sree6;
+}
+.sree7{
+    grid-area: sree7;
+}
+.sree8{
+    grid-area: sree8;
+}
+.sree9{
+    grid-area: sree9;
+}
